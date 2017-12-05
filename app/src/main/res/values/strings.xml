@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">eDoctor</string>
-    <string name="sign_in_as_patient">Sign In as Patient</string>
+    <string name="sign_in_as_patient">Sign In As Patient</string>
     <string name="button1">Button1</string>
-    <string name="sign_in_as_doctor">Sign In as Doctor</string>
+    <string name="sign_in_as_doctor">Sign In As Doctor</string>
     <string name="register">RegisterD</string>
     <string name="email">Email:</string>
     <string name="emailD">Email:</string>
