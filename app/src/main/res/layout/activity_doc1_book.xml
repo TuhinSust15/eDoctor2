@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.iftek.edoctor.Doc1Book">
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textSize="30sp"
+        android:text="@string/selected_date_by_doctor" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="@string/doctor_s_slot_are_here"
+        android:layout_below="@+id/tvSelectedDate"
+        android:layout_marginTop="41dp"
+        android:layout_alignStart="@+id/tvSelectedDate"
+        android:layout_alignEnd="@+id/tvSelectedDate"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:id="@+id/slot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/slot_1" />
+
+    <Button
+        android:id="@+id/slot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/slot1"
+        android:layout_below="@+id/slot1"
+        android:layout_marginTop="35dp"
+        android:text="@string/slot_2" />
+
+    <Button
+        android:id="@+id/slot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/slot2"
+        android:layout_below="@+id/slot2"
+        android:layout_marginTop="36dp"
+        android:text="@string/slot_3" />
+
+
+</RelativeLayout>

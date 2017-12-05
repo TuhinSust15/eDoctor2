@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etPatSR" type="id">etPatSR</item>
+    <item name="etPatEmailR" type="id">etPatEmailR</item>
+    <item name="btPatL" type="id">Log In</item>
+    <item name="tvShowP" type="id">Do not have an eDoctor Account?</item>
+    <item name="doctorList" type="id">Doctor List</item>
+    <item name="customlayoutD" type="id">customlayoutD</item>
+    <item name="customlayoutd" type="id">customlayoutd</item>
+</resources>

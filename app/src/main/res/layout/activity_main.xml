@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iftek.edoctor.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rgFirstPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/rbPatient"
+            android:layout_width="165dp"
+            android:layout_height="33dp"
+            android:layout_marginBottom="37dp"
+            android:text="@string/sign_in_as_patient"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="189dp" />
+
+        <RadioButton
+            android:id="@+id/rbDoctor"
+            android:layout_width="163dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="43dp"
+            android:text="@string/sign_in_as_doctor"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="248dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgFirstPage"
+        android:layout_centerHorizontal="true"
+        android:text="@string/proceed"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="346dp"
+        tools:text="PROCEED" />
+</RelativeLayout>

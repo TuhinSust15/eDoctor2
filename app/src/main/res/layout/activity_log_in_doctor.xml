@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iftek.edoctor.LogInDoctor">
+
+    <EditText
+        android:id="@+id/etDocEmailL"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:hint="@string/email_or_phoneL"
+        android:inputType="textEmailAddress|phone"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/etDocPassL"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etDocEmailL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="@string/passwordL"/>
+
+    <Button
+        android:id="@+id/btDocL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDocPassL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="@string/log_inD" />
+
+    <TextView
+        android:id="@+id/tvShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/do_not_have_an_edoctor_accountL"
+        android:layout_below="@+id/btDocL"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvDocRegdHereL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/register_hereL"
+        android:layout_below="@+id/tvShow"
+        android:layout_alignStart="@+id/btDocL"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

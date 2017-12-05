@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iftek.edoctor.SearchDoctor">
+
+
+    <TextView
+        android:id="@+id/tvFindDoc"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Find Your Doctor" />
+
+    <TextView
+        android:id="@+id/tvDisease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:text="@string/your_disease"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/tvFindDoc"
+        android:layout_toStartOf="@+id/tvFindDoc"
+        tools:ignore="RtlHardcoded" />
+
+    <Spinner
+        android:id="@+id/spDisease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvDisease"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDisease"
+        android:layout_below="@+id/spDisease"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/select_your_city"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/spCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvCity"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spCity"
+        android:textSize="18sp"
+        android:text="@string/sex"
+        android:layout_alignStart="@+id/tvCity"
+        android:layout_marginTop="33dp"/>
+
+    <Spinner
+        android:id="@+id/spSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSex"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btSearchDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spSex"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/search_doctor" />
+
+
+</RelativeLayout>

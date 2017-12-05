@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navSetAppointment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Set Appointment" />
+        <item
+            android:id="@+id/navInterestedPatients"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Interested Patients" />
+        <item
+            android:id="@+id/navManageAppointment"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manage Appointment" />
+        <item
+            android:id="@+id/navSuggestHealthTips"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Suggest Health Tips" />
+        <item
+            android:id="@+id/navAccount"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Account" />
+        <item
+            android:id="@+id/navEditProfile"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/navAbout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iftek.edoctor.RegistrationPatient">
+
+    <EditText
+        android:id="@+id/etPatNameR"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/namePp"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etPatPhoneR" />
+
+    <EditText
+        android:id="@+id/etPatPhoneR"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etPatNameR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/mobile_numberP"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etDocEmailR"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etPatPhoneR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/emailP"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPatPassR"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etDocEmailR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="@string/create_passwordP"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etPatDoBR"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etPatPassR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/date_of_birthP"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etDocSR"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etPatDoBR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/sexP"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btPatR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerP"
+        android:layout_below="@+id/etDocSR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
